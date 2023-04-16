@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro Timer First Brainstorm</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  </head>
+  <body>
+        <span>
+        <header> <h1>Minutes: Pomodoro Timer Design Brainstorming</h1>  <br>
+            <h2>Brainstorming Session</h2>  <br>
+            <h2>Subtitle: April 14th, 2023</h2> <br>
+        </header>
+        </span>
+        <span> 
+            <a href="#Attendance">Attendance</a>
+            <a href="#Agenda">Agenda</a>
+            <a href="#New">New Business</a>
+        </span>
+        <main> 
+            <div id="Attendance">
+            <section>
+                <h3>Attendance:</h3> <br>
+                <ul>
+                    <li>John Doe</li>
+                    <li>Jane Smith</li>
+                    <li>Tom Lee</li>
+                    <li>Sarah Brown</li>
+                </ul>           
+            </section>
+            </div>
+            <hr>
+            <div id ="Agenda">
+            <section> <h3>Agenda:</h3> <br> 
+                <ol>
+                    <li>Review of last meeting's minutes</li>
+                    <li>Brainstorming session for Pomodoro Timer design</li>
+                    <li>Assigning tasks and setting deadlines</li>
+                    <li>Any other business</li>
+                </ol>
+            </div>
+            </section>
+            <section>
+                <div id="New">
+                <h3>New Business:</h3><br>
+                <p>During the meeting, the team <b>brainstormed</b>  several design ideas 
+                    for the <strong>Pomodoro Timer</strong> and discussed the <i>pros and cons</i> of each option.
+                     After careful consideration, the group narrowed down the options to 
+                     <em>three potential designs</em>. To move forward with the design process,
+                      tasks were assigned to each team member to research and develop a 
+                      prototype for one of the potential designs. The group also agreed on a
+                    deadline of May 5th for the completion of the prototypes and to reconvene on 
+                    May 10th to review the prototypes and make a final decision on the design to
+                     move forward with. John raised a concern about potential copyright issues 
+                     with some of the design ideas, so the team agreed to research and ensure 
+                     that all designs were original and did not infringe on any existing patents
+                     or trademarks. Additionally, Jane suggested creating a shared document to 
+                     document the design process and progress, and the team agreed to use Google
+                      Docs for this purpose. Finally, Tom expressed concern about the tight deadline 
+                      for completing the prototypes, so the group discussed the feasibility of the 
+                      deadline and agreed to revisit it if necessary after the initial research phase.
+                </p>
+                <details>
+                    <summary>Further Deatails</summary>
+                    John asked if there were any potential copyright issues with some of the design ideas. The group agreed to research and ensure that all designs were original and did not infringe on any existing patents or trademarks.
+                    Jane requested that the group create a shared document to document the design process and progress. The group agreed to use Google Docs for this purpose.
+Tom expressed concern about the tight deadline for completing the prototypes. The group discussed the feasibility of the deadline and agreed to revisit it if necessary after the initial research phase.
+                </details>
+            </div>
+            </section>
+            <hr>
+            <div>
+                <section><h3>Feedback Form</h3>
+                    <form method="get">
+                        <fieldset>
+                        <label>Name
+                            <input type="text" id="name">
+                        </label>
+                        <br>
+                        <label>
+                            Attendance
+                            <input type="checkbox" id="attend">Yes
+                        </label>
+                        <br>
+                        <label>
+                            Participated <br>
+                            <input type="radio" id="yes" name="drone" value="yes"
+                            checked> 
+                            <label for="yes">Yes</label><br>
+                            <input type="radio" id="No" name="drone" value="No"
+                            checked> 
+                            <label for="no">No</label>
+                            <br> 
+                        </label>
+                        <label>
+                            Date
+                        </label>
+                        <input type="date" id="start" name="trip-start" value="2023-4-15" min="2022-01-01" max="2025-12-31"> <br>
+                        <label for="ice-cream-choice">Favourite Ice Cream Flavour:</label>
+                        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+                        <datalist id="ice-cream-flavors">
+                                <option value="Chocolate">
+                                <option value="Coconut">
+                                <option value="Mint">
+                                 <option value="Strawberry">
+                                <option value="Vanilla">
+                            </datalist><br>
+                        <label>Give us Feedback!</label><br>
+                        <textarea id="feedback" name="feedback" rows="5" cols="33"></textarea><br>
+                        <label for="pet-select">Choose a pet:</label>
+                        <select name="pets" id="pet-select">
+                                <option value="">--Please choose an option--</option>
+                                <option value="dog">Dog</option>
+                                <option value="cat">Cat</option>
+                                <option value="hamster">Hamster</option>
+                                <option value="parrot">Parrot</option>
+                                <option value="spider">Spider</option>
+                                <option value="goldfish">Goldfish</option>
+                        </select>
+                        <button type="button">
+                                Submit
+                        </button>
+                    </fieldset>
+                    </form>
+                </section>
+            </div>
+            <br>
+            <div>
+                <img src="japan.jpeg" width = 500 height = 300 alt="Japan With Mouunt Fuji">
+            </div>
+            <div>
+                <video controls>
+                    <source src="IMG_0714.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+            <div>
+                <audio controls>
+                    <source src="audio.mp3" width=300 type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                  </audio>
+            </div>
+        </main>
+        <footer>End Of Meeting</footer>
+  </body>
+</html>
