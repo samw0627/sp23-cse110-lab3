@@ -1,4 +1,24 @@
 /* Start of the stylesheet*/
-h1 {
+body{
+    background-color: beige;
+    font-family: 'Ubuntu', sans-serif;
 
+}
+h1,h2,h3{
+    color: #0f0f0f;
+    text-align: center;
+   /* margin-bottom: 0px;*/
+}
+
+a{
+   /* margin: 0cm auto 0cm auto*/
+color: rgb(7, 69, 99);
+text-decoration: none;
+font-size: 24px;
+}
+
+.date{
+    font-weight: 300;
+    text-decoration: underline;
+    color:blueviolet;
 }
