@@ -57,3 +57,10 @@ fieldset{
     border-style: dotted;
     border-color: hsl(147,50%,47%)
 }
+
+video {
+    width: 100%;
+    height: auto;
+    max-width: 50%;
+    min-width: 30%;
+  }
