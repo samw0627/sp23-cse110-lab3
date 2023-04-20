@@ -42,10 +42,10 @@
 - [ ] Experiment with these values: none, block, inline-block, inline. Include at least two of them in your page. Apply these values to the display property
   
 **Sizing**     
-- [ ] height
-- [ ] width
-- [ ] max-width
-- [ ] min-width   
+- [X] height
+- [X] width
+- [X] max-width
+- [X] min-width   
   
 **Position**
 - [ ] 2 of the following values: static, relative, fixed, absolute, sticky; Apply these values to the position property
