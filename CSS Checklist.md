@@ -5,7 +5,7 @@
 **Color**
 - [X] rgb(r, g, b) or rgba(r, g, b, a)     /* red, green, blue, alpha values */
 - [X] #FFF or #FFFFFF                    /* hex codes */
-- [ ] hsl(h, s, l) or hsla(h, s, l, a)       /* hue, saturation, lightness, alpha values */
+- [X] hsl(h, s, l) or hsla(h, s, l, a)       /* hue, saturation, lightness, alpha values */
 - [X] Color name (i.e ‘orange’)
  
 
