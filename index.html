@@ -9,23 +9,26 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
-        
+    <span class="info"> 
+        <a href="#Attendance">Attendance</a>
+        <a href="#Agenda">Agenda</a>
+        <a href="#New">New Business</a>
+    </span>
         <header>
             <h1>Minutes: Pomodoro Timer Design Brainstorming</h1>  <br>
-            <h2>Brainstorming Session</h2>  <br>
-            <h2>Subtitle: April 14th, 2023</h2> <br>
+            <h2 class="date"> Brainstorming Session : April 14th, 2023</h2> <br>
        
         </header>
         
-        <span class="info"> 
-            <a href="#Attendance">Attendance</a>
-            <a href="#Agenda">Agenda</a>
-            <a href="#New">New Business</a>
-        </span>
+        
         <main> 
-            <div id="Attendance">
+            <div id="Attendance" class="Attendance">
             <section>
                 <h3>Attendance:</h3> <br>
                 <ul>
@@ -37,7 +40,7 @@
             </section>
             </div>
             <hr>
-            <div id ="Agenda">
+            <div id ="Agenda" class="Agenda">
             <section> <h3>Agenda:</h3> <br> 
                 <ol>
                     <li>Review of last meeting's minutes</li>
@@ -48,7 +51,7 @@
             </section>
             </div>
             <section>
-                <div id="New">
+                <div id="New" class="new">
                 <h3>New Business:</h3><br>
                 <p>During the meeting, the team <b>brainstormed</b>  several design ideas 
                     for the <strong>Pomodoro Timer</strong> and discussed the <i>pros and cons</i> of each option.
@@ -76,7 +79,7 @@ Tom expressed concern about the tight deadline for completing the prototypes. Th
             </div>
             </section>
             <hr>
-            <div>
+            <div class="form">
                 <section><h3>Feedback Form</h3>
                     <form method="get">
                         <fieldset>
