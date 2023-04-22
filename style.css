@@ -51,11 +51,9 @@ div a{
 }
 
 fieldset{
-    border: 50px 50px 50px 50px;
+    border: 0px;
     border-radius: 50%;
-    border-width: 3px;
-    border-style: dotted;
-    border-color: hsl(147,50%,47%)
+    border-style: none;
 }
 
 video {
@@ -64,3 +62,21 @@ video {
     max-width: 50%;
     min-width: 30%;
   }
+
+  .button{
+    width: 10em;
+    height: 5ex;
+    background-color: rgb(239, 171, 239);
+    border: 0px;
+    border-radius: 10px;
+  }
+
+  /*.button:hover{
+    background-color: white;
+  }
+
+  .button:active{
+    box-shadow: 2px 2px 5px purple;
+  }
+  */
+  
