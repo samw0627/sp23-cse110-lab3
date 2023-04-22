@@ -2,7 +2,6 @@
 body{
     background-color: beige;
     font-family: 'Ubuntu', sans-serif;
-
 }
 h1,h2,h3{
     color: #0f0f0f;
@@ -10,8 +9,8 @@ h1,h2,h3{
     margin-bottom: 0in;
 }
 
-a{
-color: rgb(7, 69, 99);
+* a{
+color: white;
 text-decoration: none;
 font-size: 24px;
 }
@@ -43,11 +42,19 @@ section > h3{
 }
 
 .menu{
-    margin: auto auto auto auto;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 div a{
-    margin: auto 25px;
-    /*display: inline-block;*/
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 fieldset{
@@ -79,3 +86,7 @@ video {
     box-shadow: 2px 2px 5px purple;
   }
   
+  header{
+    margin-top: 100px;
+  }
+ 
