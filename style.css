@@ -23,12 +23,12 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-/**@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
     body {
       background-color: white;
     }
   }
-*/
+
 #Attendance{
     padding: 0.5em 0.5em 0.5em 0.5em;
 }
