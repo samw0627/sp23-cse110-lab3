@@ -71,12 +71,11 @@ video {
     border-radius: 10px;
   }
 
-  /*.button:hover{
+  .button:hover{
     background-color: white;
   }
 
   .button:active{
     box-shadow: 2px 2px 5px purple;
   }
-  */
   
