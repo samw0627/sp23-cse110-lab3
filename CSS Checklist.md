@@ -56,9 +56,9 @@
   
 **Layouts**
 Flexbox
-- [ ] apply flex to the display property
-- [ ] Must have more than two children within the element that is using flexbox. 
-- [ ] Must use minimum three of the flexbox related attributes
+- [X] apply flex to the display property
+- [X] Must have more than two children within the element that is using flexbox. 
+- [X] Must use minimum three of the flexbox related attributes
 Grid       
 - [X] apply grid to the display property
 - [X] Must have more than two children within the element that is using the grid. 
@@ -74,13 +74,13 @@ Grid
  ## CSS Selector
 - [X] Class Selector (.class)
 - [X] ID Selector (#id)
-- [ ] Universal Selector (*)
+- [X] Universal Selector (*)
 - [X] Element Selector (element) 
-- [ ] Attribute Selector (e.g. [attribute=foo])     
-- [ ] Pseudo-class Selector (e.g. p:hover)
+- [X] Attribute Selector (e.g. [attribute=foo])     
+- [X] Pseudo-class Selector (e.g. p:hover)
 - [X] Selector List (element, element)                  
 - [X] Descendant Combinator (element element)
 - [X] Child Combinator (element > element)
-- [ ] General sibling combinator (element ~ element)
+- [X] General sibling combinator (element ~ element)
 - [X] Adjacent sibling combinator (element + element)
-- [ ] Combining Two Selectors (element.class)
+- [X] Combining Two Selectors (element.class)
