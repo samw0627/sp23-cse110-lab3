@@ -39,7 +39,7 @@
 - [X] text-align
   
 **Display**
-- [ ] Experiment with these values: none, block, inline-block, inline. Include at least two of them in your page. Apply these values to the display property
+- [X] Experiment with these values: none, block, inline-block, inline. Include at least two of them in your page. Apply these values to the display property
   
 **Sizing**     
 - [X] height
@@ -48,11 +48,11 @@
 - [X] min-width   
   
 **Position**
-- [ ] 2 of the following values: static, relative, fixed, absolute, sticky; Apply these values to the position property
+- [X] 2 of the following values: static, relative, fixed, absolute, sticky; Apply these values to the position property
   
 **Pseudo-class**
-- [ ] :hover
-- [ ] :active
+- [X] :hover
+- [X] :active
   
 **Layouts**
 Flexbox
@@ -60,12 +60,12 @@ Flexbox
 - [ ] Must have more than two children within the element that is using flexbox. 
 - [ ] Must use minimum three of the flexbox related attributes
 Grid       
-- [ ] apply grid to the display property
-- [ ] Must have more than two children within the element that is using the grid. 
-- [ ] Must use a minimum of three of the grid related attributes
+- [X] apply grid to the display property
+- [X] Must have more than two children within the element that is using the grid. 
+- [X] Must use a minimum of three of the grid related attributes
   
 **Responsiveness**       
-- [ ] At least one query based on the screen width Media Query 
+- [X] At least one query based on the screen width Media Query 
   
 **Fonts**
 - [X] Include and use a 3rd party font (https://fonts.google.com/Links to an external site.). You can load the font in either your HTML or your CSS
